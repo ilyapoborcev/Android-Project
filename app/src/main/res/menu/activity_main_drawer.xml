@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_home" android:icon="@drawable/ic_home_black_24dp"
+        <item android:id="@+id/nav_home" android:icon="@mipmap/ic_home_black_24dp"
             android:title="Home" />
-        <item android:id="@+id/nav_gallery" android:icon="@drawable/ic_photo_library_black_24dp"
+        <item android:id="@+id/nav_gallery" android:icon="@mipmap/ic_photo_library_black_24dp"
             android:title="Gallery" />
-        <item android:id="@+id/nav_music" android:icon="@drawable/ic_library_music_black_24dp"
+        <item android:id="@+id/nav_music" android:icon="@mipmap/ic_library_music_black_24dp"
             android:title="Music" />
-        <item android:id="@+id/nav_video" android:icon="@drawable/ic_video_library_black_24dp"
+        <item android:id="@+id/nav_video" android:icon="@mipmap/ic_video_library_black_24dp"
             android:title="Video" />
-        <item android:id="@+id/nav_band" android:icon="@drawable/ic_group_black_24dp"
+        <item android:id="@+id/nav_band" android:icon="@mipmap/ic_group_black_24dp"
             android:title="The Band" />
     </group>
 

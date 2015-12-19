@@ -4,15 +4,147 @@
     android:layout_height="match_parent"
     android:id="@+id/content_home">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARS"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:textSize="28sp"
+            android:id="@+id/tvCars"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="284dp"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutCarsChecker">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MBGLECoupe63"
+                        android:id="@+id/checkBox"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MBGeländewagen"
+                        android:id="@+id/checkBox2"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MBGTS"
+                        android:id="@+id/checkBox3"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MBC63"
+                        android:id="@+id/checkBox4"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutCarsImage">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ivCarsGLE"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/glelogo" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ivCarsG"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/glogo" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ivCarsGTS"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/gtslogo" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ivCarsC"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/clogo" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="HOME"
-        android:padding="8dp"
-        android:textColor="#fff"
-        android:textSize="28sp"
-        android:id="@+id/homeTextView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/start"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout"
+        android:background="#333232" />
 
 </RelativeLayout>
