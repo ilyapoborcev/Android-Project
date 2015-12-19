@@ -6,26 +6,40 @@
     <string name="motley_crue">Mötley Crüe</string>
     <string name="motley_crue_web_site">www.motley.com</string>
     <string name="action_settings">Settings</string>
+    <string name="MercedesBenz2015">Mercedes - Benz</string>
+    <string name="MBGeländewagen">Mercedes Geländewagen</string>
+    <string name="MBGLECoupe63">Mercedes-AMG GLE 63 Coupe</string>
+    <string name="MBGTS">Mercedes-AMG GT S</string>
+    <string name="MBC63">Mercedes-AMG C 63</string>
+    <string name="start">START</string>
     <string-array name="image_ids">
-        <item>@drawable/img1</item>
-        <item>@drawable/img2</item>
-        <item>@drawable/img3</item>
-        <item>@drawable/img4</item>
-        <item>@drawable/img5</item>
-        <item>@drawable/img6</item>
-        <item>@drawable/img7</item>
-        <item>@drawable/img8</item>
-        <item>@drawable/img9</item>
-        <item>@drawable/img10</item>
-        <item>@drawable/img11</item>
-        <item>@drawable/img12</item>
-        <item>@drawable/img13</item>
-        <item>@drawable/img14</item>
-        <item>@drawable/img15</item>
-        <item>@drawable/img16</item>
-        <item>@drawable/img17</item>
-        <item>@drawable/img18</item>
-        <item>@drawable/img19</item>
-        <item>@drawable/img20</item>
+        <item>@drawable/c01</item>
+        <item>@drawable/c02</item>
+        <item>@drawable/c03</item>
+        <item>@drawable/c04</item>
+        <item>@drawable/c05</item>
+        <item>@drawable/c06</item>
+        <item>@drawable/c07</item>
+        <item>@drawable/g01</item>
+        <item>@drawable/g02</item>
+        <item>@drawable/g03</item>
+        <item>@drawable/g04</item>
+        <item>@drawable/g05</item>
+        <item>@drawable/g06</item>
+        <item>@drawable/g07</item>
+        <item>@drawable/gle01</item>
+        <item>@drawable/gle02</item>
+        <item>@drawable/gle03</item>
+        <item>@drawable/gle04</item>
+        <item>@drawable/gle05</item>
+        <item>@drawable/gle06</item>
+        <item>@drawable/gle07</item>
+        <item>@drawable/gts01</item>
+        <item>@drawable/gts02</item>
+        <item>@drawable/gts03</item>
+        <item>@drawable/gts04</item>
+        <item>@drawable/gts05</item>
+        <item>@drawable/gts06</item>
+        <item>@drawable/gts07</item>
     </string-array>
 </resources>
