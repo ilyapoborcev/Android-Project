@@ -88,14 +88,11 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_gallery:
                 fragmentClass = ContentGallery.class;
                 break;
-            case R.id.nav_music:
-                fragmentClass = ContentMusic.class;
+            case R.id.nav_about:
+                fragmentClass = ContentAbout.class;
                 break;
-            case R.id.nav_video:
-                fragmentClass = ContentVideos.class;
-                break;
-            case R.id.nav_band:
-                fragmentClass = ContentTheBand.class;
+            case R.id.nav_testdrive:
+                fragmentClass = ContentTestDrive.class;
                 break;
             default:
                 fragmentClass = ContentHome.class;

@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 /**
  * Created by Hank on 13.12.2015.
  */
-public class ContentMusic extends Fragment {
+public class ContentAbout extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.content_music, container, false);
+        View v = inflater.inflate(R.layout.content_about, container, false);
         return v;
     }
 }
