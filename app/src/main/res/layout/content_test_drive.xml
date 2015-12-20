@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_test_drive">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/mbspeedometr">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tvSpeed"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#588bd2"
+                android:textSize="64dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_weight="0.15">
+
+            <ImageButton
+                android:layout_width="144dp"
+                android:layout_height="68dp"
+                android:id="@+id/buttonTormoza"
+                android:background="@drawable/mbtormos"
+                android:layout_gravity="bottom" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.86"></FrameLayout>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:id="@+id/buttonGazzz"
+                android:layout_gravity="center_vertical|bottom"
+                android:background="@drawable/mbgas" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_weight="0.50"></FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

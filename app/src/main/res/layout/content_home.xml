@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CARS"
+            android:text="@string/cars"
             android:padding="8dp"
             android:textColor="#fff"
             android:textSize="28sp"

@@ -12,6 +12,7 @@
     <string name="MBGTS">Mercedes-AMG GT S</string>
     <string name="MBC63">Mercedes-AMG C 63</string>
     <string name="start">START</string>
+    <string name="cars">CARS</string>
     <string-array name="image_ids">
         <item>@drawable/c01</item>
         <item>@drawable/c02</item>

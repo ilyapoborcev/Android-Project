@@ -6,12 +6,10 @@
             android:title="Home" />
         <item android:id="@+id/nav_gallery" android:icon="@mipmap/ic_photo_library_black_24dp"
             android:title="Gallery" />
-        <item android:id="@+id/nav_music" android:icon="@mipmap/ic_library_music_black_24dp"
-            android:title="Music" />
-        <item android:id="@+id/nav_video" android:icon="@mipmap/ic_video_library_black_24dp"
-            android:title="Video" />
-        <item android:id="@+id/nav_band" android:icon="@mipmap/ic_group_black_24dp"
-            android:title="The Band" />
+        <item android:id="@+id/nav_about" android:icon="@mipmap/ic_library_music_black_24dp"
+            android:title="Technology" />
+        <item android:id="@+id/nav_testdrive" android:icon="@mipmap/ic_group_black_24dp"
+            android:title="Test Drive" />
     </group>
 
 

@@ -2,16 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/content_the_band">
+    android:id="@+id/content_about">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THE BAND"
+        android:text="ABOUT"
         android:padding="8dp"
         android:textColor="#fff"
         android:textSize="28sp"
-        android:id="@+id/bandTextView"
+        android:id="@+id/musicTextView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
