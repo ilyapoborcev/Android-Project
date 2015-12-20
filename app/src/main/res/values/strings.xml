@@ -13,6 +13,11 @@
     <string name="MBC63">Mercedes-AMG C 63</string>
     <string name="start">START</string>
     <string name="cars">CARS</string>
+    <string name="mp3_01">https://dl.dropboxusercontent.com/content_link/82FIBDYa2fjuZF6J4KsljB9g8gVbDeYZb5XZbtdtPD1yBVNbA042h3DpATN0dgH9/file</string>
+    <string name="mp3_02">https://dl.dropboxusercontent.com/content_link/PbNQ3uVvF8d3PQODWZXhtDpNq9B6naDBT92F8HMWV1b5deo6oxM92SdwAL3JtSQN/file</string>
+    <string name="mp3_03">https://dl.dropboxusercontent.com/content_link/7I6Y2wVHHhAp5e87AyRMJDzqPDIfuNdOalxnjzCKLfr7v3pUQNKkMna3Z44uRsjw/file</string>
+    <string name="mp3_04">https://dl.dropboxusercontent.com/content_link/tS1JzHoXYCAZ0PzTwyHP0XTw0TAvjKWRDelCGr9T334slA8yf7J71pPU7uORc6Gh/file</string>
+    <string name="mp3_tormoza">https://dl.dropboxusercontent.com/content_link/3KqAWGeD9kgkobgvnHamCPxNo6pqqPWI3P6ARhuwosNUmuTZ6tDn377sv8TY7y6I/file</string>
     <string-array name="image_ids">
         <item>@drawable/c01</item>
         <item>@drawable/c02</item>
